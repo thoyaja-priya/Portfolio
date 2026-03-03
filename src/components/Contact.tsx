@@ -64,11 +64,11 @@ const Contact = () => {
                         <input type="hidden" name="_subject" value="New Message from Portfolio Website" />
 
                         <div className="flex flex-col gap-1.5">
-                            <label htmlFor="user_name" className="text-sm font-medium text-slate-300 ml-1">Your Name</label>
+                            <label htmlFor="name" className="text-sm font-medium text-slate-300 ml-1">Your Name</label>
                             <input
                                 type="text"
-                                name="user_name"
-                                id="user_name"
+                                name="name"
+                                id="name"
                                 required
                                 placeholder="Jane Doe"
                                 className="bg-slate-800/80 border border-slate-700 text-white text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5 transition-colors placeholder:text-slate-500"
@@ -76,11 +76,11 @@ const Contact = () => {
                         </div>
 
                         <div className="flex flex-col gap-1.5">
-                            <label htmlFor="user_email" className="text-sm font-medium text-slate-300 ml-1">Your Email</label>
+                            <label htmlFor="email" className="text-sm font-medium text-slate-300 ml-1">Your Email</label>
                             <input
                                 type="email"
-                                name="user_email"
-                                id="user_email"
+                                name="email"
+                                id="email"
                                 required
                                 placeholder="jane@example.com"
                                 className="bg-slate-800/80 border border-slate-700 text-white text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5 transition-colors placeholder:text-slate-500"
