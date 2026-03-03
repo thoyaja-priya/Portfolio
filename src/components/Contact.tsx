@@ -44,7 +44,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4 className="text-sm font-semibold text-slate-300 mb-1">LinkedIn</h4>
-                            <a href="#" className="text-white hover:text-indigo-400 font-medium transition-colors flex items-center gap-1 justify-center md:justify-start">
+                            <a href="https://www.linkedin.com/in/thoyaja-priya/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-indigo-400 font-medium transition-colors flex items-center gap-1 justify-center md:justify-start">
                                 View Profile <ExternalLink size={14} />
                             </a>
                         </div>
